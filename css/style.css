@@ -58,6 +58,11 @@ header {
   color: #1f1534;
 }
 
+.information{
+  background-image: url("../image/bolitas-information.svg");
+  background-repeat: no-repeat;
+}
+
 .information-info__h1 {
   font-weight: 700;
   font-size: 4.8rem;
@@ -90,6 +95,12 @@ header {
 
 .information-image img {
   width: 690px;
+}
+
+.services{
+  background-image: url("../image/background-services.svg");
+  background-repeat: no-repeat;
+  background-position-y: 310px;
 }
 
 .services .container {
@@ -127,6 +138,7 @@ header {
 .services-card {
   width: auto;
   padding-left: 3.7rem;
+  background-color: #fff;
   border-radius: 20px;
   box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
 }
@@ -169,12 +181,17 @@ header {
 
 .movile {
   margin-top: 15rem;
+  background-image: url("../image/bolitas-information.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
 }
 
 .movile-up {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding-bottom: 265px;
 }
 
 .movile-up-reverse {
@@ -207,7 +224,6 @@ header {
 
 .movile-up-info__a {
   text-decoration: none;
-  width: 45px;
 }
 
 .movile-up-info__span {
@@ -220,6 +236,13 @@ header {
   border-radius: 55px;
 }
 
+.testimonial{
+  background-image: url("../image/bolitas-information.svg");
+  background-repeat: no-repeat;
+  background-position-x: 185px;
+  background-position-y: 280px;
+}
+
 .testimonial .container {
   display: flex;
   flex-direction: column;
@@ -228,6 +251,12 @@ header {
   height: 425px;
   margin-top: 20rem;
   color: #fff;
+  position: relative;
+}
+
+.testimonial-back{
+  position: absolute;
+  right: 1%;
 }
 
 .testimonial h2 {
@@ -265,6 +294,13 @@ header {
   padding-right: 50px;
   font-weight: 400;
   font-size: 1.9rem;
+}
+
+.article{
+  background-image: url("../image/article-back.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
 }
 
 .article .container {
@@ -329,6 +365,7 @@ header {
 
 .article-button {
   text-decoration: none;
+  padding-bottom: 202px;
 }
 
 .article-button__span {
