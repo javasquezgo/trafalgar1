@@ -493,6 +493,32 @@ footer .container {
     padding-bottom: 150px;
   }
 
+  .testimonial .container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .testimonial-back{
+    display: none;
+  }
+
+  .testimonial__h2{
+    margin-top: 20px;
+  }
+
+  .testimonial-card__data,
+  .testimonial-card__words{
+    padding: 10px 0;
+  }
+
+  .testimonial-card{
+    display: flex;
+    flex-direction: column;
+  }
+
 
 }
 
